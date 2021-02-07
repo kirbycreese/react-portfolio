@@ -10,16 +10,13 @@ function Header() {
     return (
         <div>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-            <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+            <Navbar.Brand href="#home">Kirby Reese</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
                 <Nav.Link href="#features">About</Nav.Link>
                 <Nav.Link href="#pricing">Contact</Nav.Link>
-                
-                </Nav>
-                <Nav>
-                <Nav.Link href="#deets">Connect</Nav.Link>
+                <Nav.Link href="#connect">Connect</Nav.Link>
                 
                 </Nav>
             </Navbar.Collapse>

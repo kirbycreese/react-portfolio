@@ -1,0 +1,15 @@
+.wholecontainer {
+  height: 100vh; /* Magic here */
+  width: 150vh;
+  justify-content: center;
+
+}
+
+.container2 {
+  background-image: url(portfolioshotcropped.jpg);
+  position: relative;
+  width: 500px;
+  height: 500px;
+  float: left;
+  border-radius: 5%;
+}
