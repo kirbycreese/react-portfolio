@@ -1,11 +1,11 @@
-import React, { Component } from 'react'
-import Button from 'react-bootstrap/Button';
+import React, { Component } from 'react';
+import { Badge } from 'react-bootstrap'
 
 export class Footer extends Component {
     render() {
         return (
             <div>
-                <Button variant="primary">Primary</Button>{' '}
+                <Badge variant="dark">©Kirby Reese 2021</Badge>
             </div>
         )
     }
