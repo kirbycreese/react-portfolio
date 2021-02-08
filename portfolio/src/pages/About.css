@@ -1,10 +1,3 @@
-.wholecontainer {
-  height: 100vh; /* Magic here */
-  width: 150vh;
-  justify-content: center;
-
-}
-
 .container2 {
   background-image: url(portfolioshotcropped.jpg);
   position: relative;
