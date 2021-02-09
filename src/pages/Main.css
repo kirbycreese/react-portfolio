@@ -3,4 +3,11 @@
   width: 100%;
   background-size: 100% 100%;
   background-image: url(portfoliobackground.jpg);
+
+  margin-bottom: 20%;
+}
+
+.centertext {
+  text-align: center;
+  padding-top: 15%;
 }
