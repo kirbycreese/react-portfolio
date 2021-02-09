@@ -1,7 +1,7 @@
 import React from 'react';
-import Carousel from 'react-bootstrap/Carousel'
+import Carousel from 'react-bootstrap/Carousel';
 import { Container } from 'react-bootstrap';
-import './portfolioshotcropped.jpg'
+import Photo from './portfolioshotcropped.jpg'
 
 function Mywork() {
     return (
@@ -11,7 +11,7 @@ function Mywork() {
                 <Carousel.Item interval={1000}>
                     <img
                     className="d-block w-100"
-                    src="portfolioshotcropped.jpg"
+                    src={ Photo }
                     alt="First slide"
                     />
                     <Carousel.Caption>
@@ -22,7 +22,7 @@ function Mywork() {
                 <Carousel.Item interval={500}>
                     <img
                     className="d-block w-100"
-                    src="portfolioshotcropped.jpg"
+                    src={ Photo }
                     alt="Second slide"
                     />
                     <Carousel.Caption>
@@ -33,7 +33,7 @@ function Mywork() {
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src="portfolioshotcropped.jpg"
+                    src={ Photo }
                     alt="Third slide"
                     />
                     <Carousel.Caption>

@@ -13,9 +13,9 @@ function Header() {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
-                <Nav.Link href="#features">About Me</Nav.Link>
+                <Nav.Link href="About.js">About Me</Nav.Link>
                 <Nav.Link href="#features">My Work</Nav.Link>
-                <Nav.Link href="#pricing">Connect With Me</Nav.Link>
+                <Nav.Link href="#contact">Connect With Me</Nav.Link>
                 
                 </Nav>
             </Navbar.Collapse>
